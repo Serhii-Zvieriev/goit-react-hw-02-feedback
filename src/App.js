@@ -33,7 +33,6 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-
     return (
       <div className="App container">
         <Section title="Please leave Feedback">
